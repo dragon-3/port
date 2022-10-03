@@ -130,3 +130,93 @@ footer {
     padding-bottom: 30px;
     font-family: 'Roboto', sans-serif;
 }
+
+@media only screen and (max-width: 1150px) {
+
+    .inner-container {
+        margin-top: 20px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+    }
+
+    .intro {
+        display: block;
+    }
+
+    .intro-bottom {
+        margin-bottom: 80px;
+    }
+
+    .projects {
+        margin-left: 0px;
+    }
+
+    .top img {
+        height: 120px;
+        width: 120px;
+    }
+
+    .contact img {
+        height: 50px;
+        width: 50px;
+    }
+
+    .github img {
+        height: 50px;
+        width: 50px;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .top img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .contact img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .github img {
+        height: 40px;
+        width: 40px;
+        
+    }
+
+    .top {
+        display: block;
+    }
+
+    .social {
+        justify-content: space-evenly;
+        margin-left: 20px;
+    }
+
+    .intro-top {
+        font-size: 40px;
+        text-align: center;
+
+    }
+
+    .intro-bottom {
+        width: 220px;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .projects {
+        font-size: 20px;
+    }
+
+    .inner-container {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+
+    .project-list {
+        font-size: 14px;
+    }
+}
