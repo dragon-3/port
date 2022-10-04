@@ -168,7 +168,61 @@ footer {
 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 730px) {
+
+    .inner-container {
+        margin-left: 20px;
+    }
+
+    .intro-top {
+        font-size: 60px;
+        text-align: center;
+    }
+    
+    .intro-bottom {
+        width: 400px;
+        font-size: 14px;
+        text-align: center;
+        margin-left: 30px;
+
+    }
+}
+
+@media only screen and (max-width: 690px) {
+
+    .inner-container {
+        margin-left: 18px;
+    }
+
+    .intro-bottom {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+
+    .intro-bottom {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+
+    .intro-bottom {
+        width: 350px;
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+
+    .intro-bottom {
+        width: 320px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
     .top img {
         height: 80px;
         width: 80px;
@@ -182,7 +236,6 @@ footer {
     .github img {
         height: 40px;
         width: 40px;
-        
     }
 
     .top {
@@ -201,9 +254,10 @@ footer {
     }
 
     .intro-bottom {
-        width: 220px;
+        width: 280px;
         font-size: 12px;
         text-align: center;
+        margin-left: 14px;
     }
 
     .projects {
@@ -212,11 +266,78 @@ footer {
 
     .inner-container {
         margin-top: 10px;
-        margin-left: 10px;
+        margin-left: 14px;
         margin-bottom: 10px;
     }
 
     .project-list {
         font-size: 14px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+
+    .inner-container {
+        margin-left: 12px;
+    }
+
+    .intro-bottom {
+        width: 200px;
+        margin-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+
+    .inner-container {
+        margin-left: 10px;
+    }
+
+    .intro-bottom {
+        width: 180px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .intro-bottom {
+        margin-left: 30px;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+
+    .inner-container {
+        margin-left: 8px;
+    }
+
+    .intro-bottom {
+        width: 170px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+
+    .intro-bottom {
+        width: 140px;
+        margin-left: 40px
+    }
+}
+
+@media only screen and (max-width: 360px) {
+
+    .inner-container {
+        margin-left: 6px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    .inner-container {
+        margin-left: 4px;
     }
 }
