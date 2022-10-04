@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './Home.css'
 import photo from "./resources/IMG-0502-a.jpg"
 import gmail from "./resources/gmail-logo-2.png"
 import github from "./resources/github.png"
+import { Link } from "react-router-dom";
+import { useNavigate } from 'react-router-dom'
 
 function Home() {
+
+    const weatherUrl = `https://weather-search-wl1j.vercel.app/`;
+    const navigate = useNavigate();
+
+    const navigateToWeatherApp = () => {
+        window.location.replace(`https://weather-search-wl1j.vercel.app/`)
+    }
+
     return (
         <div>
             <div className="container">
@@ -22,7 +32,6 @@ function Home() {
                                     <img src={github} alt="" />
                                 </div>
                             </div>
-                            
                         </div>
                         <div className="intro">
                             <div className="left">
@@ -41,7 +50,7 @@ function Home() {
                                     <div className="project-list">
                                         <table>
                                             <tr>
-                                                <td><a href="">project1</a></td><br />
+                                                <td><a href="https://weather-search-wl1j.vercel.app/" target="_blank">Weather App</a></td><br />
                                             </tr>
                                             <tr>
                                                 <td><a href="">project2</a></td><br />
