@@ -26,10 +26,10 @@ function Home() {
                             </div>
                             <div className="social">
                                 <div className="contact">
-                                    <img src={gmail} alt="" />
+                                <a href="mailto:seannarron9@gmail.com" target="_blank"><img src={gmail} alt="" /></a>
                                 </div>
                                 <div className="github">
-                                    <img src={github} alt="" />
+                                <a href="https://github.com/dragon-3" target="_blank"><img src={github} alt="" /></a>
                                 </div>
                             </div>
                         </div>
@@ -50,13 +50,13 @@ function Home() {
                                     <div className="project-list">
                                         <table>
                                             <tr>
-                                                <td><a href="https://weather-search-wl1j.vercel.app/" target="_blank">Weather App</a></td><br />
+                                                <td><a href="https://weather-search-wl1j.vercel.app/" target="_blank">Weather</a></td><br />
                                             </tr>
                                             <tr>
-                                                <td><a href="">project2</a></td><br />
+                                                <td><a href="https://todo-crud-one.vercel.app/" target="_blank">Todo</a></td><br />
                                             </tr>
                                             <tr>
-                                                <td><a href="">project3</a></td><br />
+                                                <td><a href="https://github.com/dragon-3/chat-fullstack" target="_blank">Chat</a></td><br />
                                             </tr>
                                             
                                         </table>
