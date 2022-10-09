@@ -21,11 +21,6 @@
     border-radius: 20px;
     padding: 10px;
     background: linear-gradient(270deg,var(--grad-2)0%,var(--grad-1)100%);
-    z-index: 1;
-}
-
-.border {
-    z-index: 2;
 }
 
 .top {

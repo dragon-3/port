@@ -56,7 +56,7 @@ function Home() {
                                                 <td><a href="https://todo-crud-one.vercel.app/" target="_blank">Todo</a></td><br />
                                             </tr>
                                             <tr>
-                                                <td><a href="https://github.com/dragon-3/chat-fullstack" target="_blank">Chat</a></td><br />
+                                                <td><a href="https://chat-2-sigma.vercel.app/" target="_blank">Chat</a></td><br />
                                             </tr>
                                             
                                         </table>
